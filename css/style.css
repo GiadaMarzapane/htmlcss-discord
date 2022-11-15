@@ -212,8 +212,12 @@ footer{
 
 .footer-box-blue ul li{
     list-style: none;
-    color: white;
     line-height: 35px;
+}
+
+.footer-box-blue ul li a{
+    text-decoration: none;
+    color: white;
 }
 .footer-box-blue ul li:first-child{
     color: #8ea1e1;
