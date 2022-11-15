@@ -1,0 +1,328 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* REGOLE GENERALI */
+
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
+.white-font{
+    color: white;
+}
+
+button{
+    border-radius: 25px;
+    border: none;
+    padding: 8px 12px;
+}
+/* REGOLE GENERALI FLEX CONTAINER */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+section.flex-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.flex-container3 {
+    width: 70%;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+}
+
+.flex-container4 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 10px auto 0;
+}
+
+/* REGOLE GENERALI HEADER */
+body > header{
+    min-height: 400px;
+    background-color: #3161e0;
+}
+
+header div.flex-container {
+    min-height: 30px;
+    margin: 15px 0;
+}
+
+.flex-container .main-logo, 
+.flex-container .login {
+    min-width: 25%;
+}
+.login{
+    text-align: right;
+}
+.main-nav ul{
+    text-align: center;
+}
+.main-nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+
+.flex-container .main-nav {
+    min-width: 50%;
+}
+
+.down-part-header {
+    width: 100%;
+    height: 370px;
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container .main-logo,
+.flex-container .login {
+    min-width: 25%;
+}
+
+.introduction-discord {
+    height: 200px;
+    width: 50%;
+    text-align: center;
+}
+.introduction-discord > h1{
+    margin-bottom: 20px;
+}
+.introduction-discord > p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.introduction-discord button:first-of-type{
+    padding: 12px 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.introduction-discord button:last-child{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+}
+
+/* REGOLE MAIN */
+
+body main section:nth-of-type(even) {
+    background-color: rgb(237, 237, 237);
+}
+body main section{
+    padding: 40px 0;
+}
+.pink,
+.blue,
+.green {
+    min-height: 350px;
+    margin: 15px 0;
+}
+.pink {
+   width: 30%;
+   /* border: 1px dashed black; */
+}
+
+.blue {
+   width: 70%;
+}
+
+.green {
+    width: 100%;
+    min-height: 400px;
+}
+
+.blue img, .pink img{
+    /* max-width: 100%; */
+    max-height: 350px;
+    display: block;
+    margin: auto;
+}
+
+.pink > *{
+    margin: 25px 95px 25px 0;
+}
+#pink-centrale > *{
+    margin: 25px 0 25px 95px;
+}
+
+.green > *{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.green img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#h2-bg{
+    margin: 0 auto 25px;
+    text-align: center;
+    width: 450px;
+    padding-top: 30px;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.green button{
+    display: block;
+    margin: auto;
+    background-color: #8ea1e1;
+    padding: 12px 20px;
+}
+
+/* REGOLE FOOTER */
+
+footer{
+    min-height: 400px;
+    background-color: rgba(21, 21, 21, 0.947);
+}
+
+.footer-box-pink h2{
+    color: #8ea1e1;
+    margin-bottom: 15px;
+}
+
+.footer-box-pink img{
+    max-height: 15px;
+}
+
+.footer-box-blue ul li{
+    list-style: none;
+    line-height: 35px;
+}
+
+.footer-box-blue ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-box-blue ul li:first-child{
+    color: #8ea1e1;
+    font-weight: bold;
+}
+
+.footer-box-pink,
+.footer-box-blue {
+    margin: 15px 0;
+}
+
+.footer-box-pink {
+    flex-grow: 2;
+}
+
+.footer-box-blue {
+    flex-grow: 1;
+}
+
+.social-icon{
+    margin-top: 15px;
+}
+.social-icon span{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer-logo,
+.footer-bottone {
+    width: 70px;
+    height: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+.footer-bottone button{
+    background-color: #8ea1e1;
+}
+
+footer .flex-container3{
+    border-bottom: 1px solid #8ea1e1;
+}
+
+/* REGOLE CLASSE DEBUG */
+
+.debug > header{
+    background-color: lightblue;
+}
+.debug header div.flex-container{
+    background-color: burlywood;
+}
+
+.debug .flex-container .main-logo,
+.debug .flex-container .login{
+    border: 1px dashed black;
+}
+.debug .flex-container .main-nav{
+    border: 1px dashed black;
+}
+
+.debug .down-part-header{
+    background-color: rgb(13, 13, 151);
+}
+
+.debug .introduction-discord{
+    background-color: palevioletred;
+    border: 1px dashed black;
+}
+
+.debug .pink,
+.debug .blue,
+.debug .green{
+    border: 1px dashed black;
+}
+
+.debug .pink{
+    background-color: rosybrown;    
+}
+
+.debug .blue{
+    background-color: rgb(11, 152, 240);    
+}
+
+.debug .green{
+    background-color: green;
+}
+
+.debug .footer-box-pink{
+    background-color: rgb(255, 157, 189);
+    border: 1px dashed rgb(122, 2, 104);
+    }
+
+.debug .footer-box-blue{
+    background-color: blueviolet;
+    border: 1px dashed rgb(65, 1, 85);
+}
+.debug footer > main{
+    border-bottom: 1px solid white;
+}
+
+.debug .flex-container4{
+    background-color: aquamarine;
+    }
+ 
+.debug .footer-logo, 
+.debug .footer-bottone{
+    border: 1px dashed black;
+    background-color: yellowgreen;
+}
