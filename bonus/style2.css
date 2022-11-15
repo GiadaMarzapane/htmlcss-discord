@@ -21,8 +21,8 @@ button {
 
 .container{
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 20px 0;
+    max-width: 1100px;
+    padding: 30px 0;
 }
 
 /* REGOLE HEADER */
@@ -65,6 +65,7 @@ header section .flex-container> nav {
 
 .login button:hover{
     color: #8ea1e1;
+    box-shadow: 1px 5px 15px #8ea1e1
 }
 
 .header-down-left, .header-down-right{
@@ -105,4 +106,81 @@ header section .flex-container> nav {
 
 .header-description:nth-of-type(2){
     margin: 40px 0;
+}
+
+.header-down-right {
+    text-align: right;    
+}
+
+/* REGOLE MAIN */
+
+main section.container{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.security{
+    width: 35%;
+    min-height: 500px;
+    padding-left: 25px;
+}
+.card-security{
+    width: 65%;
+    min-height: 500px;
+    padding-left: 25px;
+}
+.security > *{
+    margin-bottom: 20px;
+}
+.security h2{
+    color: #5865f2;
+    font-size: 44px;
+}
+
+.security img{
+    max-width: 100%;
+}
+
+.security div{
+    display: inline-block;
+    background-color: #5865f2;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.security a div:hover{
+    background-color: #8ea1e1;
+    box-shadow: 1px 5px 15px rgb(107, 107, 107)
+}
+.flex-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-security > a{
+    display: block;
+    max-width: calc(50% - 30px);
+    min-height: 250px;
+    text-decoration: none;
+    color: rgba(21, 21, 21, 0.947);
+}
+.card-security .card img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3{
+    color: #5865f2;
+    margin: 12px 0;
+}
+
+.card p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.card:hover p{
+    color: #5865f2;
 }
