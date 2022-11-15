@@ -277,6 +277,11 @@ main section button:hover{
     background-color: #3161e0;
     box-shadow: 3px 3px 10px rgb(107, 107, 107)
 }
+
+.footer-box-blue a:hover,
+.main-nav a:hover{
+    text-decoration: underline;
+}
 /* REGOLE CLASSE DEBUG */
 
 .debug > header{
