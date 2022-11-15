@@ -4,6 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* REGOLE GENERALI */
+
+body{
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+}
+
+.white-font{
+    color: white;
+}
+
+button{
+    border-radius: 25px;
+    border: none;
+    padding: 8px 12px;
+}
 /* REGOLE GENERALI FLEX CONTAINER */
 
 .flex-container {
@@ -37,7 +55,8 @@ section.flex-container1 {
 
 /* REGOLE GENERALI HEADER */
 body > header{
-    min-height: 300px;
+    min-height: 400px;
+    background-color: #3161e0;
 }
 
 header div.flex-container {
@@ -49,6 +68,24 @@ header div.flex-container {
 .flex-container .login {
     min-width: 25%;
 }
+.login{
+    text-align: right;
+}
+ul{
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+}
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
 
 .flex-container .main-nav {
     min-width: 50%;
@@ -56,7 +93,10 @@ header div.flex-container {
 
 .down-part-header {
     width: 100%;
-    height: 250px;
+    height: 370px;
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .flex-container .main-logo,
@@ -66,7 +106,27 @@ header div.flex-container {
 
 .introduction-discord {
     height: 200px;
-    width: 60%;
+    width: 50%;
+    text-align: center;
+}
+.introduction-discord > h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.introduction-discord > p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.introduction-discord button:first-of-type{
+    padding: 12px 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.introduction-discord button:last-child{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
 }
 
 /* REGOLE MAIN */
