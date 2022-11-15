@@ -118,6 +118,7 @@ main section.container{
     background-color: #f6f6f6;
     border-radius: 10px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .security{
@@ -183,4 +184,86 @@ main section.container{
 }
 .card:hover p{
     color: #5865f2;
+}
+
+/* REGOLE FOOTER */
+
+footer {
+    min-height: 400px;
+    background-color: rgba(21, 21, 21, 0.947);
+}
+footer .flex-container{
+    align-items: stretch;
+}
+footer section .flex-container{
+    justify-content: space-between;
+}
+.footer-box-pink h2 {
+    color: #5865f2;
+    margin-bottom: 15px;
+}
+
+.footer-box-pink img {
+    max-height: 15px;
+}
+
+.footer-box-blue ul li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.footer-box-blue ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-box-blue ul li:first-child {
+    color: #5865f2;
+    font-weight: bold;
+}
+
+.footer-box-pink,
+.footer-box-blue {
+    margin: 15px 0;
+}
+
+.footer-box-pink {
+    flex-grow: 2;
+}
+
+.footer-box-blue {
+    flex-grow: 1;
+}
+
+.social-icon {
+    margin-top: 15px;
+}
+
+.social-icon span {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer-logo,
+.footer-bottone {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.footer-bottone button {
+    background-color: #5865f2;
+    font-weight: bold;
+    padding: 12px 15px;
+}
+
+footer main {
+    border-bottom: 1px solid #8ea1e1;
+}
+
+.footer-box-blue ul li:hover{
+    text-decoration: underline;
+}
+
+.footer-bottone a button:hover{
+    background-color: #8ea1e1;
 }
