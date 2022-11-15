@@ -266,14 +266,17 @@ footer .flex-container3{
     background-image: linear-gradient(to right, #8ea1e1, white);
     color: black;
     font-weight: 600;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 10px rgb(107, 107, 107);
 }
 
 .introduction-discord button:hover{
     color: #8ea1e1;
     font-weight: 600;
 }
-
+main section button:hover{
+    background-color: #3161e0;
+    box-shadow: 3px 3px 10px rgb(107, 107, 107)
+}
 /* REGOLE CLASSE DEBUG */
 
 .debug > header{
