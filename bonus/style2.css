@@ -68,6 +68,17 @@ header section .flex-container> nav {
     box-shadow: 1px 5px 15px #8ea1e1
 }
 
+.header-description{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header-description:hover{
+    background-color: #6571f3;
+    border-radius: 10px;
+}
+
 .header-down-left, .header-down-right{
     width: 50%;
     min-height: 400px;
@@ -105,7 +116,7 @@ header section .flex-container> nav {
 }
 
 .header-description:nth-of-type(2){
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .header-down-right {
