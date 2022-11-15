@@ -68,15 +68,15 @@ header div.flex-container {
 .login{
     text-align: right;
 }
-ul{
+.main-nav ul{
     text-align: center;
 }
-ul li {
+.main-nav ul li {
     display: inline-block;
     list-style: none;
     font-size: 14px;
 }
-ul li a {
+.main-nav ul li a {
     text-decoration: none;
     display: inline-block;
     padding: 0 15px;
@@ -198,6 +198,26 @@ body main section{
 
 footer{
     min-height: 400px;
+    background-color: rgba(21, 21, 21, 0.947);
+}
+
+.footer-box-pink h2{
+    color: #8ea1e1;
+    margin-bottom: 15px;
+}
+
+.footer-box-pink img{
+    max-height: 15px;
+}
+
+.footer-box-blue ul li{
+    list-style: none;
+    color: white;
+    line-height: 35px;
+}
+.footer-box-blue ul li:first-child{
+    color: #8ea1e1;
+    font-weight: bold;
 }
 
 .footer-box-pink,
@@ -213,6 +233,14 @@ footer{
     flex-grow: 1;
 }
 
+.social-icon{
+    margin-top: 15px;
+}
+.social-icon span{
+    display: inline-block;
+    padding-right: 10px;
+}
+
 .footer-logo,
 .footer-bottone {
     width: 70px;
@@ -220,8 +248,13 @@ footer{
     margin: 10px 0;
     text-align: center;
 }
+.footer-bottone button{
+    background-color: #8ea1e1;
+}
 
-
+footer .flex-container3{
+    border-bottom: 1px solid #8ea1e1;
+}
 
 /* REGOLE CLASSE DEBUG */
 
@@ -265,10 +298,6 @@ footer{
 
 .debug .green{
     background-color: green;
-}
-
-.debug footer{
-    background-color: rgba(21, 21, 21, 0.947);
 }
 
 .debug .footer-box-pink{
