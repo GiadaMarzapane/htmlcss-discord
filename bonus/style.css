@@ -79,7 +79,7 @@ header div.flex-container {
 .main-nav ul li a {
     text-decoration: none;
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 12px;
     font-weight: bold;
 }
 
@@ -258,6 +258,20 @@ footer{
 
 footer .flex-container3{
     border-bottom: 1px solid #8ea1e1;
+}
+
+/* BONUS */
+.login button:hover,
+.footer-bottone button:hover{
+    background-image: linear-gradient(to right, #8ea1e1, white);
+    color: black;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px black;
+}
+
+.introduction-discord button:hover{
+    color: #8ea1e1;
+    font-weight: 600;
 }
 
 /* REGOLE CLASSE DEBUG */
